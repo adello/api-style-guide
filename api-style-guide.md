@@ -59,6 +59,6 @@ For health check api, use the following
 ## Status Codes
 * https://blog.restcase.com/rest-api-error-codes-101/
 
-Healthchecks
+## Healthchecks
 * https://medium.com/ether-labs/designing-a-health-check-api-a98784eb6a07
 * https://www.ibm.com/support/knowledgecenter/en/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/twlp_microprofile_healthcheck.html
