@@ -1,4 +1,4 @@
-# Adello APi Styleguide
+# Adello API Styleguide
 
 ## General
 * API's are binding contracts between different domains and/or teams. They represent domain boundaries.
@@ -48,8 +48,6 @@ For health check api, use the following
 * 200 - Service Up
 * 503 - Service Down
 * 500 - Service status can not be determined
-
---
 
 # Additional Reading
 
