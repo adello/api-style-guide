@@ -16,12 +16,12 @@
 * Consider adding API mocks into the same repo to allow initial API integration without requiring access to the actual API backend
 * Syntax and terminology must be consistent not within just a single API but also across all APIs in the company.
 * Use human readable and commonly understandable naming over programmatic or internal names
-* Read and adhere to Postel's law for robust API design (i.e. receiving empty parameters or unknown fields are ignored, not an error)
+* Read and adhere to (Postel's law)[https://en.wikipedia.org/wiki/Robustness_principle] for robust API design (i.e. receiving empty parameters or unknown fields are ignored, not an error)
 * Avoid API versioning until and only when you must - extend the API instead
-* Adherence to Postel's law allows for ignoring unknown fields by the receiver, therefor a tight coupling of having to upgrade both API provider and API client can be avoided
+* Adherence to (Postel's law)[https://en.wikipedia.org/wiki/Robustness_principle] allows for ignoring unknown fields by the receiver, therefor a tight coupling of having to upgrade both API provider and API client can be avoided
 * Service URI should follow the scheme 'v1/<resources>' (the version identifier is a escape hatch when extending the AI is not longe useful or possible)
 * Define the version 'v1' as the base path property in Swagger 
-* Relying on pre-defined and hardcoded URI schemes constitutes a form of close coupling - embrace hypermedia style relationship attribute links instead
+* Relying on pre-defined and hardcoded URI schemes constitutes a form of close coupling - embrace (hypermedia style relationship attribute links)[https://en.wikipedia.org/wiki/Hypertext_Application_Language instead
 * Relationship attribute links allow the avoidance of sub resource structures by flattening the resource endpoint depth to exactly one (i.e. /resources/{resource-id})
 * Avoid sub-resource hierarchies. They tend to make sense in the beginning but quickly make the API hard to understand and does not scale. There is also no consistency in the uri schema anymore since some sub-resources are singular, i.,e. report only exists exactly ones per campaign
 * Stay within single resource dimension and create multiple endpoints over deep resource hierarchies.
@@ -34,7 +34,7 @@
 * Use small cap
 * Use plural for parameter arrays, and resource endpoints (i.e. /accounts and /accounts/{account-id})
 * URL query property sets are separated with a comma (i.e. options=1,2,3) or the pipe symbol (i.e. options=1|2|3)
-* Empty URL query parameters or unknown fields should be explicitly ignored (applying Postel's Law)
+* Empty URL query parameters or unknown fields should be explicitly ignored (applying (Postel's law)[https://en.wikipedia.org/wiki/Robustness_principle])
 
 ## Response Codes
 Do pay attention to response codes (and read this excellent rest-api-error-codes-101 primer)
