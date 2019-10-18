@@ -19,7 +19,7 @@
 * Read and adhere to [Postel's law](https://en.wikipedia.org/wiki/Robustness_principle) for robust API design (i.e. receiving empty parameters or unknown fields are ignored, not an error)
 * Avoid API versioning until and only when you must - extend the API instead
 * Adherence to [Postel's law](https://en.wikipedia.org/wiki/Robustness_principle) allows for ignoring unknown fields by the receiver, therefor a tight coupling of having to upgrade both API provider and API client can be avoided
-* Service URI should follow the scheme 'v1/<resources>' (the version identifier is a escape hatch when extending the AI is not longe useful or possible)
+* Service URI should follow the scheme 'v1/<resources>' (the version identifier is a escape hatch when extending the AI is not longer useful or possible)
 * Define the version 'v1' as the base path property in Swagger 
 * Relying on pre-defined and hardcoded URI schemes constitutes a form of close coupling - embrace [hypermedia style relationship attribute links](https://en.wikipedia.org/wiki/Hypertext_Application_Language) instead
 * Relationship attribute links allow the avoidance of sub resource structures by flattening the resource endpoint depth to exactly one (i.e. /resources/{resource-id})
