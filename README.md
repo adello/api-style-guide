@@ -6,4 +6,4 @@ Great RESTful APIs look like they were designed by a single team. This promotes 
 
 ## Credits
 
-This API Styleguide represents the condensed essence of what we have learned from countless others in the industry. It does respesents the next iteration and alter ego of the very comprehensive [API Styleguide]((https://haufe-lexware.gitbooks.io/haufe-api-styleguide/content/) compiled by the [Haufe-Lexware](https://github.com/Haufe-Lexware) team. 
+This API Styleguide represents the condensed essence of what we have learned from countless others in the industry. It does respesents the next iteration and alter ego of the very comprehensive [API Styleguide](https://haufe-lexware.gitbooks.io/haufe-api-styleguide/content/) compiled by the [Haufe-Lexware](https://github.com/Haufe-Lexware) team. 
